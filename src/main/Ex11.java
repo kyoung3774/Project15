@@ -19,7 +19,10 @@ public class Ex11 {
 
 		// 출력 스트림 생성
 		FileOutputStream fos = new FileOutputStream("copy.txt");
-
+		
+		
+		start = System.currentTimeMillis();
+		
 		// 한문자씩 읽어서 복사하는중
 		while (true) {
 			int i = fis.read();

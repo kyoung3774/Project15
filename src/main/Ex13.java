@@ -17,13 +17,13 @@ public class Ex13 {
 		file.createNewFile();
 
 		// 파일 속성 보기
-		System.out.println(file.isFile()); // 파일인지?
-		System.out.println(file.isDirectory()); // 폴더인지?
-		System.out.println(file.getName()); // 파일이름
-		System.out.println(file.getAbsolutePath()); // 파일경로
-		System.out.println(file.getPath()); // 파일경로
-		System.out.println(file.canRead()); // 읽을 수 있는지?
-		System.out.println(file.canWrite()); // 쓸 수 있는지?
+		System.out.println("1 " + file.isFile()); // 파일인지?
+		System.out.println("2 " + file.isDirectory()); // 폴더인지?
+		System.out.println("3 " + file.getName()); // 파일이름
+		System.out.println("4 " + file.getAbsolutePath()); // 파일경로
+		System.out.println("5 " + file.getPath()); // 파일경로
+		System.out.println("6 " + file.canRead()); // 읽을 수 있는지?
+		System.out.println("7 " + file.canWrite()); // 쓸 수 있는지?
 		System.out.println();
 		
 		// 파일 삭제(물리적)

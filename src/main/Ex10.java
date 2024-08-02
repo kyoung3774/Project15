@@ -24,7 +24,7 @@ public class Ex10 {
 		// 바이트 기반 스트림 생성
 		FileInputStream fis2 = new FileInputStream("reder.txt");
 
-		// 보조 스트림 생성
+		// 보조 스트림 생성 / 1바이트->2바이트 변환
 		InputStreamReader isr2 = new InputStreamReader(fis2);
 
 		while (true) {

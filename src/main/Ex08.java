@@ -2,6 +2,7 @@ package main;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.Reader;
 
 public class Ex08 {
 
@@ -19,14 +20,16 @@ public class Ex08 {
 //		}
 		
 		// 문자 기반 입력 스트림 생성
-		FileReader fr = new FileReader("reder.txt");
+		Reader fr = new FileReader("reder.txt");
 		
 		while (true) {
 			int i = fr.read(); // 2바이트씩 읽어오기
 			if (i == -1) {	// 파일 끝에 도달(-1 반환)하면 종료
 				break;
 			}
+			System.out.print(i+": "); // 문자 아스키코드 값
 			System.out.print((char) i); // 바이트->문자로 변환
+			System.out.println();
 		}
 		
 	}

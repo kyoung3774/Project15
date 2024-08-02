@@ -6,7 +6,8 @@ import java.io.IOException;
 public class Ex05 {
 
 	public static void main(String[] args) throws IOException {
-
+		
+		// 입력 스트림 생성 
 		FileInputStream fis = new FileInputStream("test.txt");
 
 		// 10개 크기의 배열 생성
