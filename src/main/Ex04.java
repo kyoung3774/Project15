@@ -17,8 +17,8 @@ public class Ex04 {
 			if (i == -1) {
 				break;
 			}
-			System.out.print(i+ " ");
-			System.out.println((char)i);
+			System.out.print(i + " ");
+			System.out.println((char) i);
 			System.out.println();
 		}
 	}
